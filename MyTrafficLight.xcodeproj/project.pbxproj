@@ -8,17 +8,23 @@
 
 /* Begin PBXBuildFile section */
 		2F61ABB428CB851D00F9224A /* MyTrafficLightApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F61ABB328CB851D00F9224A /* MyTrafficLightApp.swift */; };
-		2F61ABB628CB851D00F9224A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F61ABB528CB851D00F9224A /* ContentView.swift */; };
 		2F61ABB828CB852000F9224A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F61ABB728CB852000F9224A /* Assets.xcassets */; };
 		2F61ABBB28CB852000F9224A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F61ABBA28CB852000F9224A /* Preview Assets.xcassets */; };
+		2F61ABC228CB95C100F9224A /* ColorCirclesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F61ABC128CB95C100F9224A /* ColorCirclesView.swift */; };
+		2F61ABC428CB978D00F9224A /* ColorCircleYelloyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F61ABC328CB978D00F9224A /* ColorCircleYelloyView.swift */; };
+		2F61ABC628CB987600F9224A /* ColorCircleGreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F61ABC528CB987600F9224A /* ColorCircleGreenView.swift */; };
+		2F61ABC728CCAEEB00F9224A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F61ABB528CB851D00F9224A /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		2F61ABB028CB851D00F9224A /* MyTrafficLight.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTrafficLight.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F61ABB328CB851D00F9224A /* MyTrafficLightApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyTrafficLightApp.swift; sourceTree = "<group>"; };
-		2F61ABB528CB851D00F9224A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2F61ABB528CB851D00F9224A /* ContentView.swift */ = {isa = PBXFileReference; indentWidth = 7; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; tabWidth = 9; };
 		2F61ABB728CB852000F9224A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2F61ABBA28CB852000F9224A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2F61ABC128CB95C100F9224A /* ColorCirclesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCirclesView.swift; sourceTree = "<group>"; };
+		2F61ABC328CB978D00F9224A /* ColorCircleYelloyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleYelloyView.swift; sourceTree = "<group>"; };
+		2F61ABC528CB987600F9224A /* ColorCircleGreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorCircleGreenView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +59,9 @@
 			children = (
 				2F61ABB328CB851D00F9224A /* MyTrafficLightApp.swift */,
 				2F61ABB528CB851D00F9224A /* ContentView.swift */,
+				2F61ABC128CB95C100F9224A /* ColorCirclesView.swift */,
+				2F61ABC328CB978D00F9224A /* ColorCircleYelloyView.swift */,
+				2F61ABC528CB987600F9224A /* ColorCircleGreenView.swift */,
 				2F61ABB728CB852000F9224A /* Assets.xcassets */,
 				2F61ABB928CB852000F9224A /* Preview Content */,
 			);
@@ -137,8 +146,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2F61ABB628CB851D00F9224A /* ContentView.swift in Sources */,
+				2F61ABC428CB978D00F9224A /* ColorCircleYelloyView.swift in Sources */,
+				2F61ABC728CCAEEB00F9224A /* ContentView.swift in Sources */,
+				2F61ABC628CB987600F9224A /* ColorCircleGreenView.swift in Sources */,
 				2F61ABB428CB851D00F9224A /* MyTrafficLightApp.swift in Sources */,
+				2F61ABC228CB95C100F9224A /* ColorCirclesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
